@@ -84,3 +84,25 @@
         transform: rotate(0);
     }
 }
+.ex-12-button:hover .ex-12-top-white {
+    animation: move-top-12 2s linear;
+}
+@keyframes move-top-12{
+    0% {
+        left: 30%;
+    }
+    100% {
+        left: 10%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: move-bottom-12 2s linear;
+}
+@keyframes move-bottom-12 {
+    0% {
+        right: 20%;
+    }
+    100% {
+        right: 10%;
+    }
+}

@@ -62,19 +62,11 @@
     filter: brightness(200%) grayscale(100%);
     transform: scale(0.5);
 }
-.ex-10-img {
-    position: relative;
-    animation-name: loading;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    transition: transform;
-
-}
 .ex-10-icon {
     animation: loading 2s linear infinite;
 }
 @keyframes loading {
     0% {
-        transform: rotate(1turn);
+        transform: rotate(360deg);
     }
 }

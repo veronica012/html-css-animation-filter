@@ -89,7 +89,10 @@
 }
 @keyframes move-top-12{
     0% {
-        left: 30%;
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
     }
     100% {
         left: 10%;
@@ -100,7 +103,10 @@
 }
 @keyframes move-bottom-12 {
     0% {
-        right: 20%;
+        right: 10%;
+    }
+    50% {
+        right: calc(100% - 60px);
     }
     100% {
         right: 10%;
